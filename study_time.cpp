@@ -67,7 +67,7 @@ int main() {
  StudyTime object1 = reading;
  StudyTime object2;
   object2 = reading;
-  cout << "Final value: " << StudyTime::getObjectCount() << endl;
+  cout << "Final  value: " << StudyTime::getObjectCount() << endl;
   cout << "Object 1 minutes: " << object1.getMinutes() << endl;
   cout << "Object 2 minutes: " << object2.getMinutes() << endl;
     return 0;
