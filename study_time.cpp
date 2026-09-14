@@ -81,13 +81,12 @@ int main() {
   //PARTE E:
   StudyTime time1 (60);
  StudyTime time2 (45);
+ StudyTime time3 (60);
  cout << "time 1: " << time1.getMinutes() << " minutes " << endl;
  cout << "time 2: " << time2.getMinutes() << " minutes" << endl;
+ cout << "time 3: " << time3.getMinutes() << " minutes" << endl;
  cout << boolalpha;  // Display bool values as true/false instead of 1/0.
-if (time1 == time2) {
-    cout << "The two StudyTime objects are the same. " << endl;
-} else {
-    cout << "The two StudyTime objects are not the same. " << endl;
-}
+cout << "time1 == time2: " << (time1 == time2) << endl;  // false
+cout << "time1 == time3: " << (time1 == time3) << endl;  // true
     return 0;
 }
